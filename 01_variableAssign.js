@@ -1,0 +1,25 @@
+var myFullName;
+console.log("Before intialization :",myFullName );
+myFullName="Rohit  Malvi";
+console.log("After intialization :",myFullName);
+myFullName="Rohit Manoj Malvi";
+console.log("After Updation :",myFullName);
+console.log("---------------------------------------------------------");
+var myLove;
+myLove="I Love only JavaScript"
+console.log(myLove);
+var firstName,lastName,age,address,pinCode,gender,isMarried;
+firstName="Rohit";
+lastName="Malvi";
+age="25";
+address="Hinjewadi";
+pinCode=441105;
+gender="Male";
+isMarried="No";
+console.log("First Name : ",firstName);
+console.log("Last Name : ",lastName);
+console.log("Age :",age);
+console.log(" Address : ",address);
+console.log("Pincode : ",pinCode);
+console.log("Gender : ",gender);
+console.log("IsMarried : ",isMarried);
