@@ -11,6 +11,7 @@ function femaleMarriageEligibility(gender,age,girlName)
     // console.log(eligibleMale);
     return eligibleFemale;
 }
+console.log("=====Step1========");
 
 var male1 =maleMarriageEligibility("Male",22,"Bill Gates");
  var male2=maleMarriageEligibility("Male",17,"Steve jobs");
@@ -18,11 +19,10 @@ var male1 =maleMarriageEligibility("Male",22,"Bill Gates");
  console.log(male1);
  console.log(male2);
 
+ console.log("=====Step2========");
+
+
 var female1=femaleMarriageEligibility("Female",17,"Jenifer");
-var female2=femaleMarriageEligibility("Female",17,"Stev");
+var female2=femaleMarriageEligibility("Female",17,"Stephie");
 console.log(female1);
  console.log(female2);
-var a="rohit";
-a.toUpperCase();
-console.log(a);
-console("pusing code")
