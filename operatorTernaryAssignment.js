@@ -25,3 +25,4 @@ console.log(female1);
 var a="rohit";
 a.toUpperCase();
 console.log(a);
+console("pusing code")
