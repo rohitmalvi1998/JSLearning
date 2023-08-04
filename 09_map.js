@@ -2,8 +2,6 @@ let array =[ 11, "6ft", "GK", "MH", true, true ];
 
 console.log(array);
 
- 
-
 let map = new Map();
 
 map.set("rollNo", 11);
