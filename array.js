@@ -150,7 +150,7 @@ console.log(array);
 
 var array = [10, 20, 30, 50, 10, 80, 20];
 
-array.splice(4, 2, 33, 55, 66, 77 );
+array.splice(7, 0, 33, 55, 66, 77 );
 
 console.log(array);
 
