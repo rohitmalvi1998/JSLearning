@@ -20,6 +20,8 @@ let elementLast = array[arrayLength-1];
 
 console.log(`Last element is : ${elementLast}`);
 
+
+
 console.log(`---------------------------`);
 
 array[1] = 100;
@@ -61,6 +63,13 @@ for (let index = array.length-1; index >= 0; index--) {
     console.log(element);
 
 }
+
+console.log(`----------- Array traversing using "for Of" -----------`);
+array2=[10,80,90,70]
+for (const iterator of array2) {
+    console.log(iterator);
+}
+
 
 console.log(`----------- Log even indexed element -----------`);
 

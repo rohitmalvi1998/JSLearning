@@ -93,3 +93,42 @@ console.log(bank2.empName);
 */
 console.log(bank2.address.getAddress("hello"));
 
+const student={
+    studentName:"Rohit",
+    rollNumber:12,
+    city:"Pune",
+    state:"MH",
+    college:"MIT"
+    }
+    Object.freeze(student)
+    student.rollNumber=14
+    console.log("New Roll number : ",student.rollNumber);
+    delete student.rollNumber
+    console.log(student);
+    // let keyStudent=Object.keys(student)
+    // console.log(keyStudent[4]);// syntax for fetching specific key of object
+    // let valueStudent=Object.values(student)
+    // console.log(valueStudent[4]);// syntax for fetching specific value of object
+
+
+/*
+    for (const key in student) {
+        if (Object.hasOwnProperty.call(student, key)) {
+            const element = student[key];
+            console.log(`Key: ${key} ==> ${element}`);
+            }
+    }
+    console.log(Object.entries(student));
+    */
+
+    //CallBack Function
+    var callBack=function(){
+        console.log("Callback function");
+    }
+
+    function main(){
+        console.log("Testing main function");
+        callBack();
+    }
+
+    main()
