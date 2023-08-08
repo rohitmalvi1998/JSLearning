@@ -41,7 +41,7 @@ let personRM={
    bank.bankCode=1234;
    console.log(bank);
 
-   const array=[];
+   const a rray=[];
    array[0]=0
    array[1]=1
    array[2]=2

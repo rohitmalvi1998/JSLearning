@@ -2,7 +2,7 @@ var reverseString=function(stringParam) {
     const lastChar=(stringParam.length)-1;
     console.log(lastChar);
     for (let i = lastChar; i > 0; i--) {
-        console.log(stringParam[i],);
+        console.log(stringParam[i]);
         
         
     }

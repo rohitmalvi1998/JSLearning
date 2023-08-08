@@ -1,0 +1,45 @@
+let personalDetails={
+    name:"Rohit",
+    Education:"B.E",
+    Company:"TCS",
+    City: "Nagpur"
+}
+let collegeDetails={
+    collegeName:"PIET",
+    collegeLocation:"Nagpur",
+    collegeRanking:10,
+    collgeGrade:"A+"
+}
+let mergeObject=Object.assign({},personalDetails,collegeDetails)
+console.log(mergeObject);
+console.log(`My name is ${mergeObject.name}.I am from ${mergeObject.City}.I have done ${mergeObject.Education} from ${mergeObject.collegeName} and currently i am working in ${mergeObject.Company}`);
+
+let friendsName={
+    friend1:"Atharva",
+    friend2:"Mahesh",
+    friend3:"parag",
+    friend4:"Dhoble"
+}
+Object.freeze(friendsName);
+for (const key in friendsName) {
+    if (Object.hasOwnProperty.call(friendsName, key)) {
+        const element = friendsName[key];
+        console.log(`${key}-->${element}`);       
+        
+        
+    }
+}
+
+let company="Codemind Technology";
+let splitCompany=company.split(" ");
+console.log(splitCompany);
+let splitCompany1=splitCompany[1];
+console.log(splitCompany1);
+splitLength=splitCompany1.length
+console.log(splitLength);
+for (let i = (splitLength)-1; i > 0; i--) {
+    const element2 = splitCompany1[i];
+    
+    console.log(element2);
+}
+
