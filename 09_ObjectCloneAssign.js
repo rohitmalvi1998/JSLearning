@@ -31,6 +31,7 @@ console.log("Deep Clone Array ",arrayNums4);
 
 let arrayEven=[2,30,14,8]
 let mergeArray=[...arrayEven,...arrayNums]
+//let mergeArray={}
 console.table(mergeArray);
 
 let employee_info={

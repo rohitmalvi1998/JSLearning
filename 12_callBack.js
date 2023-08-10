@@ -1,4 +1,4 @@
-function jennyHomework(callback){
+function jennyHomework(callBack){
 
     console.log(`Jenny started assignment`);
 

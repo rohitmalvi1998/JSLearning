@@ -1,14 +1,14 @@
 console.log(captain);
 
-//console.log(runs);
+console.log(runs);
 
-// console.log(PIN);
+console.log(PIN);
 
 var captain;
 
-// let runs;
+let runs;
 
-// const PIN = 411057;
+const PIN = 411057;
 
  
 
@@ -26,7 +26,8 @@ function display(){
 
  
 
-// show(); Not allowed
+//show(); 
+//Not allowed
 
 var show = function(){
 

@@ -3,12 +3,12 @@
  
 var factorial=function(num1){
 
-    let result = 1; // 3 
+    let result = 1; // 3 1*2*3*4*5
     
     for (let index = 1; index <= num1; index++) {
     
         result = result * index;
-    
+    //result=120
     }
     //console.log(`Factorial of 5 is ${result}`);
     return result;
@@ -20,14 +20,8 @@ let factorialValue=[5,9,7,11,12];
 for (let i = 0; i < factorialValue.length; i++) {
     console.log(`The Factorial of ${factorialValue[i]}: ${factorial(factorialValue[i])}`);
 } 
-
+//console.log(`The Factorial of ${factorialValue[0]}: ${factorial(factorialValue[0])}`);
 //Assignment:  WAP to find the factorial of numbers: 5, 9, 11, 7
-
-
-
-
-
-
 
 var fact = 1;
 
@@ -50,7 +44,3 @@ function factorial(num){
 factorial(5);
 
 console.log(`Factorial using recursion is: ${fact}`);
-
-
-
-
