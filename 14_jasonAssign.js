@@ -23,3 +23,4 @@ console.log(splitName[1]);
 
 let splityear=jsonObject.doj.split("-")
 console.log(splityear[2]);
+
