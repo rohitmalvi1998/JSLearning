@@ -1,4 +1,4 @@
-function display(){
+1function display(){
     console.log("Function with no argument and no return");
 }
 function helloProgram(){
