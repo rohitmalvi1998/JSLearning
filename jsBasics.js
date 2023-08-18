@@ -75,9 +75,12 @@ for (let i = 0; i < var2.length; i++) {
    console.log(var2[i], end=" ");
     
 }
-var var3=  new String("Rohit")// another way to declare and initialize an string
+var var3=  new String("Rohit Malvi")// another way to declare and initialize an string
 console.log(var2.concat(" ").concat(var3));
 
 console.log(var2.charCodeAt(1));
 //console.log(9>8>7);
  console.log(var2.charAt(4));
+ console.log(var2.charAt(4));
+ console.log(var2.charAt(4));
+
