@@ -27,7 +27,7 @@ arrayNumbers.forEach( (currentValue, index, array)=>{
     
        console.log("The number is even ",currentValue );
    }
-} ); 
+} );
 
 console.log("==================Step5==============");
 
