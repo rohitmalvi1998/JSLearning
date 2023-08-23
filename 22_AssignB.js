@@ -91,5 +91,15 @@ console.log("=====================Step6===============================");
                     
                         
                     });
-                
+        {        
+let ro2;
+    console.log(ro2);
 
+}
+//console.log(ro2);
+{
+    var ro=1;
+
+}
+console.log(ro);
+//const ro=2;

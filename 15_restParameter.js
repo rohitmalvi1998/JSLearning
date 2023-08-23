@@ -1,8 +1,8 @@
 
 
 function add(num1, num2, ...num){
-    // console.log(num);
-    // console.log(`num1 : ${num1}  , num2 : ${num2} `);
+    console.log(num);
+    console.log(`num1 : ${num1}  , num2 : ${num2} `);
     // console.log("Length of array",num.length);
 var restArray=num
 console.log("Rest Array parameter",restArray);
