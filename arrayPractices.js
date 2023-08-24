@@ -17,9 +17,9 @@ console.log(...array2);
 let length=array2.length;
  
 // Splice
-array2.splice(1,0,2,3)// using this we will add the element at position 1 ->> 2 & 3.
+//array2.splice(1,0,2,3)// using this we will add the element at position 1 ->> 2 & 3.
 
-array2.splice(1,1,2,3)// using this we have replaced the element at position 1 to 2 with 2 & 3.
+array2.splice(1,2,2,3)// using this we have replaced the element at position 1 to 2 with 2 & 3.
 //array2.splice(1,1) // using this we have deleted the element at position 1 
 console.log(array2); 
 // array2[0]=largest;
