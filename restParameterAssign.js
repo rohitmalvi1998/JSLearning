@@ -1,7 +1,10 @@
-
+//Rest Parameter : The rest parameter syntax allows a function to accept an indefinite number of 
+//arguments as an array, providing a
+//way to represent variadic functions in JavaScript
 
 function add(num1, num2, ...num){
-    // console.log(num);
+    console.log(num);
+    console.log(typeof num);
     // console.log(`num1 : ${num1}  , num2 : ${num2} `);
     // console.log("Length of array",num.length);
 var restArray=num

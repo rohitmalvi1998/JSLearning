@@ -14,3 +14,16 @@ function inquire() {
 
 
 greet(inquire)();
+//Passing Function as an argument!
+
+function greet2(name){
+    return `Hi!! ${name} `;
+}
+  
+function greet_name(greeting,message,name){
+       console.log(`${greeting(name)} ${message}`);
+}
+  
+greet_name(greet2,'Welcome To GeeksForGeeks','JavaScript');
+
+

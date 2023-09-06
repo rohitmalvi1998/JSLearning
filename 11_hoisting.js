@@ -1,12 +1,13 @@
 console.log(captain);
 
-console.log(runs);
+//console.log(Runs);
 
-console.log(PIN);
+//console.log(PIN);
 
-var captain;
+var captain=5;
 
-let runs;
+//const Runs2=2;
+//let runs;
 
 const PIN = 411057;
 

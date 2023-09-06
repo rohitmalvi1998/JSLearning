@@ -7,7 +7,9 @@ function show(){
     console.log("inside show function");
 var innerfunction=function(){
     console.log("inside inner function");
+
 }
+return innerfunction;
 }
 
 var inner= show();
